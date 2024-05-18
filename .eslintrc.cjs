@@ -15,4 +15,5 @@ module.exports = init({
     'react/jsx-no-leaked-render': 'off',
     'no-console': 'error',
   },
+  extends: ['plugin:storybook/recommended'],
 });
