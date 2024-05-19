@@ -18,7 +18,15 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "paths": {
+      "@components": ["./libs/components"],
+      "@layouts": ["./libs/layouts"],
+      "@modules": ["./libs/modules"],
+      "@services": ["./libs/services"],
+      "@utils": ["./libs/utils"]
+    }
   },
   "include": ["app", "libs"],
   "references": [{ "path": "./tsconfig.vite.json" }]
