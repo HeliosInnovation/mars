@@ -25,7 +25,8 @@
       "@layouts": ["./libs/layouts"],
       "@modules": ["./libs/modules"],
       "@services": ["./libs/services"],
-      "@utils": ["./libs/utils"]
+      "@utils": ["./libs/utils"],
+      "@types": ["./types"]
     }
   },
   "include": ["app", "libs"],
